@@ -1,12 +1,15 @@
 body{
-  /*background-image: url('http://i.imgur.com/ULoIKMi.jpg');*/
+  /*background-image: url('http://fullhdpictures.com/wp-content/uploads/2015/05/Memphis-Grizzlies.jpg');*/
   background-color: #e8f6fd; ;
   color:white;
   overflow-x:hidden;
   width:100%;
   left:0;
   margin: 0;
+  gradient: .5;
   color: #0C628D;
+  /*color: #87762F;*/
+  /*color: #ffffff;*/
 }
 
 /*index*/
@@ -43,18 +46,8 @@ body{
   font-family: 'Black Ops One', cursive;
   text-align: center;
   padding-top: 50px;
-
 }
 
-@webkit-keyfranes flash{
-  from, 50%, to {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
-}
 
 
 #index h2{
