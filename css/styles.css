@@ -1,7 +1,6 @@
 body{
-  background-color: #0F2B51;
-  background-image: url('http://www.spyderonlines.com/images/wallpapers/blue-hd-wallpapers/blue-hd-wallpapers-22.jpg');
-  color:white;
+  /*background-color: #0F2B51;*/
+  background-image: url('backgroundimage.jpg');
   overflow-x:hidden;
   width:100%;
   left:0;
