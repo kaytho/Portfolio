@@ -1,15 +1,12 @@
 body{
-  /*background-image: url('http://fullhdpictures.com/wp-content/uploads/2015/05/Memphis-Grizzlies.jpg');*/
-  background-color: #e8f6fd; ;
+  background-image: url('http://www.spyderonlines.com/images/wallpapers/blue-hd-wallpapers/blue-hd-wallpapers-22.jpg');
   color:white;
   overflow-x:hidden;
   width:100%;
   left:0;
   margin: 0;
   gradient: .5;
-  color: #0C628D;
-  /*color: #87762F;*/
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 
 /*index*/
@@ -20,28 +17,22 @@ body{
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-  /*border: 10px solid #004466;*/
 }
 #index{
-  /*background-color:#e8f6fd;*/
   width: 100%;
   left:0;
   right: 0;
   height:300px;
   background-size:cover;
   z-index:-1;
-  /*margin: 0 auto;*/
   padding-top:50px;
   overflow-x:hidden;
-  /*border-top:5px solid #FFA5D2;*/
-
 }
 
 #index h1{
-  color:#0c628d;
+  color: #F4B033;
+
   font-size: 100px;
-  /*text-decoration: : white;*/
-  /*margin-left: 424px;*/
   margin: 0 auto;
   font-family: 'Black Ops One', cursive;
   text-align: center;
@@ -51,7 +42,6 @@ body{
 
 
 #index h2{
-  color:#0c628d;
   font-size: 30px;
   margin:0;
   font-family: 'Bungee', cursive;
@@ -59,14 +49,13 @@ body{
 }
 
 .portfolio-area.top{
-  /*background-color:#004466;*/
   color:white;
   opacity: .90;
   position: fixed;
   top: 0;
   left:0;
   width: 100%;
-  color: #white;
+  color: white;
   height: 30px;
   z-index: 20;
 
@@ -78,10 +67,11 @@ body{
 
 }
 span{
-  color: #004466;
+  color: #F4B033;
+
 }
 span1{
-  color: #FFA5D2;
+  color: #F4B033;
 }
 
 
@@ -93,7 +83,7 @@ span1{
 
 #aboutme {
   text-align:center;
-  /*background-color:#0c628d;*/
+  padding-top: 100px;
   background-size: cover;
   color: bold purple;
   font-family: 'arial bold';
@@ -102,13 +92,11 @@ span1{
   right:0;
   top:0;
   bottom:0;
-  margin-top: 50px;
-  height:800px;
+  margin-top: 100px;
+  height:500px;
   z-index:-1;
   text-align:center;
   padding-bottom: 100px;
-  /*border-top: 5px solid #FFA5D2;
-  border-bottom: 5px solid #FFA5D2;*/
 }
 h4{
   font-size: 70px;
@@ -130,7 +118,6 @@ h4{
   font-size: 30px;
 }
 .portfolio-area.me{
-  /*background-color: #EC7A41;*/
   opacity:.50;
   height:100vh;
   width:740px;
@@ -151,17 +138,16 @@ h4{
   width: 100%;
   font-size: 25px;
   height: 300px;
-  /*background-color: #0c628d;*/
-  color:#004466;
+  padding-top: 135px;
+  color: #F4B033;
   text-align: center;
-  /*border-top: 5px solid #FFA5D2;*/
 }
 
 #social a{
-  color:#0C628D;
+  color: #F4B033;
 }
 #social i{
-  color:#FFA5D2;
+  color: #F4B033;
   display: inline-block;
 }
 
@@ -180,46 +166,41 @@ h4{
 }
 
 #mywork{
-  /*background-color: #e8f6fd;*/
   left:0;
   right:0;
   margin-bottom:0;
   font-size: 20px;
   color: #e8f6fd;
-
-  /*border-top: 5px solid #FFA5D2;*/
 }
 
 #mywork h1{
-  /*margin-top: 30px;*/
-  color:#004466;
+  padding-bottom: 200px;
+  color: #F4B033;
   display: flex;
   justify-content: center;
   font-size: 50px;
   text-decoration: underline;
+
 }
 #mywork p{
   text-align: center;
-  /*border: solid #004466 5px;
-  border-radius: 30px;*/
   height: 328px;
   width: 500px;
-  background-color: #79C9F2;
+
 }
 
 #mywork img{
-  /*border: solid #004466 5px;*/
   margin-bottom: 20px;
   border-radius: 30px;
   width: 500px;
   height: 328px;
+  border: 5px solid #F4B033;
 }
 
 .div row col-md-6 {
   margin: 0px;
   min-height: 320px;
   width: 100%;
-
 }
 
 .row.col-md-6{
