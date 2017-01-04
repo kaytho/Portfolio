@@ -6,7 +6,7 @@ body{
   left:0;
   margin: 0;
   gradient: .5;
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 /*index*/
@@ -60,10 +60,22 @@ body{
   z-index: 20;
 
 }
-#Nav{
+/*#Nav{
   color: black;
   height: 100px;
   position: fixed;
+  font-size: 50px;
+  background-color: #F4B033;
+
+}*/
+#Nav{
+  color: black;
+  font-size: 20px;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  /*opacity: .90;*/
+  background-color: #C6983E;
 
 }
 span{
@@ -197,11 +209,7 @@ h4{
   border: 5px solid #F4B033;
 }
 
-.div row col-md-6 {
-  margin: 0px;
-  min-height: 320px;
-  width: 100%;
-}
+
 
 .row.col-md-6{
   border: Solid #004466 10px;
