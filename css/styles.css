@@ -2,7 +2,7 @@ body{
   background-color: #0F2B51;
   background-image: url('backgroundimage.jpg');
   overflow-x:hidden;
-  width:100%;
+  max-width:100%;
   left:0;
   margin: 0;
   gradient: .5;
@@ -27,6 +27,8 @@ body{
   z-index:-1;
   padding-top:50px;
   overflow-x:hidden;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 #index h1{
@@ -95,7 +97,7 @@ span1{
 
 #aboutme {
   text-align:center;
-  padding-top: 100px;
+  padding-top: 0px;
   background-size: cover;
   color: bold purple;
   font-family: 'arial bold';
@@ -104,11 +106,12 @@ span1{
   right:0;
   top:0;
   bottom:0;
-  margin-top: 100px;
+  margin-top: 0px;
   height:500px;
   z-index:-1;
   text-align:center;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 h4{
   font-size: 70px;
@@ -128,6 +131,8 @@ h4{
 }
 #aboutme h3{
   font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .portfolio-area.me{
   opacity:.50;
@@ -144,15 +149,67 @@ h4{
   font-size:20px;
 }
 
+
+
+
+/*Projects*/
+
+#row{
+  display: inline-block;
+  max-width: 100%;
+}
+
+#mywork{
+  left:0;
+  right:0;
+  margin-bottom:0;
+  font-size: 20px;
+  color: #e8f6fd;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#mywork  h1{
+  padding-bottom: 50px;
+  color: #F4B033;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-top: 0px;
+  padding-top: 0px;
+
+
+}
+#mywork p{
+  text-align: center;
+  height: 328px;
+  width: 500px;
+  max-width: 100%;
+
+}
+
+#mywork img{
+  margin-bottom: 20px;
+  border-radius: 30px;
+  width: 500px;
+  height: 328px;
+  border: 5px solid #F4B033;
+  max-width: 100%;
+}
+
 /*contact page*/
 
 #contact {
   width: 100%;
-  font-size: 25px;
+  font-size: 15px;
   height: 300px;
   padding-top: 135px;
   color: #F4B033;
   text-align: center;
+}
+#contact h1{
+  font-size: 20px;
 }
 
 #social a{
@@ -165,52 +222,7 @@ h4{
 
 
 
-
-
-
-
-/*Projects*/
-
-#row{
-  display: inline-block;
-
-
-}
-
-#mywork{
-  left:0;
-  right:0;
-  margin-bottom:0;
-  font-size: 20px;
-  color: #e8f6fd;
-}
-
-#mywork h1{
-  padding-bottom: 200px;
-  color: #F4B033;
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
-  text-decoration: underline;
-
-}
-#mywork p{
-  text-align: center;
-  height: 328px;
-  width: 500px;
-
-}
-
-#mywork img{
-  margin-bottom: 20px;
-  border-radius: 30px;
-  width: 500px;
-  height: 328px;
-  border: 5px solid #F4B033;
-}
-
-
-
 .row.col-md-6{
   border: Solid #004466 10px;
+  max-width: 100%;
 }
